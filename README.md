@@ -25,7 +25,7 @@ Include one of the following:
 <script src="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.js"></script>
 ```
 
-You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to easily add cell icons, using `<i class="bi bi-<icon-name>">` (see [icon font usage](https://icons.getbootstrap.com/#external-image)):
+You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to add cell icons with ease (using `<i class="bi bi-<icon-name>">`; see [icon font usage](https://icons.getbootstrap.com/#external-image)):
 ```html
 <!-- Bootstrap Icons v1.9.1 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
