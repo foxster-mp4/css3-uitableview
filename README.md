@@ -1,14 +1,20 @@
 # css3-uitableview
 CSS3 UITableView
 
+## Light Appearance
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
+
+## Dark Appearance
 <img src=".screenshot-dark.png" alt="phone-browser-screenshot" width="300"/>
+
+<br>
 
 ## See It in Action
 * Demo: https://foxster-mp4.github.io/css3-uitableview/
 
 * Working project: https://foxster-mp4.github.io/everywhere/
 
+<br>
 
 ## Get Started
 Include **uitableview.css**:
@@ -34,7 +40,9 @@ You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to easily
 <!-- Visit https://icons.getbootstrap.com/#install to grab the latest version -->
 ```
 
-## Recommended Structure
+<br>
+
+## Structure
 ```
 body#uitableview | div#uitableview
 -- [h1#title]
@@ -52,9 +60,11 @@ body#uitableview | div#uitableview
 ------------ [i.bi]
 ------ [p.section-footer]
 ```
-### NOTES
+### Notes
 * Selectors in square brackets are optional
 * In a section, all cells should be of the same tag
+
+<br>
 
 ## License
 [The MIT License](LICENSE.md)
