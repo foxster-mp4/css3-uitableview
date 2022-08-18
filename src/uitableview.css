@@ -47,25 +47,24 @@ MIT License
 }
 
 /* Rounded section */
-#uitableview .section-container.rounded {
+#uitableview .section.rounded {
   margin-left: 16px;
   margin-right: 16px;
 }
-#uitableview .section-container.rounded .section,
-#uitableview .section-container.rounded .cell {
+#uitableview .section.rounded .cell {
   border-radius: 10px;
 }
 /* First cell (rounded top corners) */
-#uitableview .section-container.rounded .section .cell:first-of-type { 
+#uitableview .section.rounded .cell:first-of-type { 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 /* Middle cells (no rounded corners) */
-#uitableview .section-container.rounded .section .cell {
+#uitableview .section.rounded .cell {
   border-radius: 0px;
 }
 /* Last cell (rounded bottom corner) */
-#uitableview .section-container.rounded .section .cell:last-of-type {
+#uitableview .section.rounded .cell:last-of-type {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
