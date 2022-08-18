@@ -3,11 +3,6 @@ CSS3 framework to achieve UITableView in HTML
 
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
 
-
-## See It in Action
-* Demo: https://foxster-mp4.github.io/css3-uitableview/
-* Working project: https://foxster-mp4.github.io/everywhere/
-
 ## Get Started
 Include **uitableview.css**:
 ```html
@@ -53,6 +48,10 @@ body#uitableview | div#uitableview
 ### Notes
 * Selectors in square brackets are optional
 * In a section, all cells should be of the same tag
+
+## See It in Action
+* Demo: https://foxster-mp4.github.io/css3-uitableview/
+* Working project: https://foxster-mp4.github.io/everywhere/
 
 <br>
 
