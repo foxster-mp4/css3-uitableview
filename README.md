@@ -1,11 +1,14 @@
 # css3-uitableview
 CSS3 UITableView
 
-## Demo
-https://foxster-mp4.github.io/css3-uitableview/
+<img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
+<img src=".screenshot-dark.png" alt="phone-browser-screenshot" width="300"/>
 
-## Example Project
-https://foxster-mp4.github.io/everywhere/
+## See It in Action
+* Demo: https://foxster-mp4.github.io/css3-uitableview/
+
+* Working project: https://foxster-mp4.github.io/everywhere/
+
 
 ## Get Started
 Include **uitableview.css**
@@ -29,8 +32,8 @@ Include one of the following:
 body#uitableview | div#uitableview
 -- [h1#title]
 -- div.section-container [.rounded]
----- [p.section-header]
 ---- div.section
+------ [p.section-header]
 ------ a.cell | div.cell [.clickable] [.disabled]
 -------- [div.cell-icon]
 ---------- [img.icon] | [i.bi]
@@ -40,7 +43,7 @@ body#uitableview | div#uitableview
 ------------ [p.cell-detail-text]
 ---------- [div.cell-accessory-icon [.grey]]
 ------------ [i.bi]
----- [p.section-footer]
+------ [p.section-footer]
 ```
 ### NOTES
 * Selectors in square brackets are optional
