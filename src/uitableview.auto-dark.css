@@ -1,0 +1,35 @@
+/*
+uitableview.auto-dark.css
+css3-uitableview (github.com/foxster-mp4/css3-uitableview)
+
+Copyright (c) 2022 Foxster (foxster-mp4 on GitHub)
+MIT License
+*/
+
+/* Auto dark mode styles (no JavaScript) */
+@media (prefers-color-scheme: dark) {
+  #uitableview {
+    background: var(--table-background-dark);
+    color: white;
+  }
+  #uitableview .cell {
+    background: var(--cell-background-dark);
+  }
+  #uitableview .section .cell .cell-inner {
+    border-top-color: var(--cell-separator-dark);
+  }
+  #uitableview .clickable.cell:active,
+  #uitableview .clickable.cell:focus {
+    transition: none;
+    background-color: var(--cell-highlight-dark) !important;
+  }
+  #uitableview .icon {
+    border-color: var(--icon-border-dark);
+  }
+  #uitableview .cell-accessory-icon i {
+    color: var(--primary-color-dark);
+  }
+  #uitableview .grey.cell-accessory-icon i {
+    color: var(--grey-accessory-icon-color-dark);
+  }
+}
