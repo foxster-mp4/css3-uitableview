@@ -53,7 +53,5 @@ body#uitableview | div#uitableview
 * Demo: https://foxster-mp4.github.io/css3-uitableview/
 * Working project: https://foxster-mp4.github.io/everywhere/
 
-<br>
-
 ## License
 [The MIT License](LICENSE.md)
