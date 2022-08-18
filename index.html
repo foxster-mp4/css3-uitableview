@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="src/uitableview.auto-dark.css">
   <style>
     .cell-icon .bi { color: gray; }
+    .grey.cell-accessory-icon .bi-chevron-right { 
+      -webkit-text-stroke: 1px !important; 
+      font-size: 14px !important;
+    }
   </style>
 </head>
 <body id="uitableview">
@@ -35,7 +39,7 @@
   <div class="section-container">
     <div class="section">
       <p class="section-header">O</p>
-      <div class="cell">
+      <a class="clickable cell" href="#uitableview">
         <div class="cell-icon">
           <i class="bi bi-hand-index"></i>
         </div>
@@ -44,15 +48,18 @@
             <p class="cell-text">Is for the only one</p>
             <p class="cell-detail-text">I see</p>
           </div>
+          <div class="grey cell-accessory-icon">
+            <i class="bi bi-chevron-right"></i>
+          </div>
         </div>
-      </div>
+      </a>
     </div>  
   </div>
   <!-- V -->
   <div class="section-container">
     <div class="section">
       <p class="section-header">V</p>
-      <div class="cell">
+      <div class="disabled cell">
         <div class="cell-icon">
           <i class="bi bi-stars"></i>
         </div>
@@ -60,6 +67,9 @@
           <div class="cell-labels">
             <p class="cell-text">Is for the very very</p>
             <p class="cell-detail-text">Extraordinary</p>
+          </div>
+          <div class="cell-accessory-icon">
+            <i class="bi bi-check-lg"></i>
           </div>
         </div>
       </div>
@@ -155,7 +165,7 @@
             <p class="cell-text">Disabled Cell</p>
           </div>
           <div class="cell-accessory-icon">
-            <i class="bi bi-arrow-up-right-square"></i>
+            <i class="bi bi-check-lg"></i>
           </div>
         </div>
       </a>

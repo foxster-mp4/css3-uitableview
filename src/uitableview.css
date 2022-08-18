@@ -24,10 +24,13 @@ MIT License
   --cell-separator: rgba(0, 0, 0, 0.3);
   --cell-separator-dark: rgba(255, 255, 255, 0.15);
   
+  --cell-highlight: rgba(229, 229, 233, 255);
   --cell-highlight-dark: rgba(58, 58, 60, 255);
-  --icon-border-dark: rgba(255, 255, 255, 0.25);
+  
   --grey-accessory-icon-color: rgba(197, 197, 198, 255);
   --grey-accessory-icon-color-dark: rgba(89, 89, 93, 255);
+
+  --icon-border-dark: rgba(255, 255, 255, 0.25);
   --transition-effect: 0.5s;
 }
 
@@ -88,7 +91,7 @@ MIT License
 /* Clickable cell */
 #uitableview .clickable.cell:active {
   transition: none;
-  background-color: rgba(209, 209, 213, 255);
+  background-color: var(--cell-highlight);
 }
 #uitableview .clickable.cell,
 #uitableview .clickable.cell:visited {
