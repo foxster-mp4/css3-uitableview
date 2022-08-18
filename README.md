@@ -1,5 +1,5 @@
 # css3-uitableview
-UITableView but for HTML & CSS
+CSS3 framework to achieve UITableView in HTML
 
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
 
