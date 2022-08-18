@@ -1,20 +1,12 @@
 # css3-uitableview
 CSS3 UITableView
 
-## Light Appearance
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
 
-## Dark Appearance
-<img src=".screenshot-dark.png" alt="phone-browser-screenshot" width="300"/>
-
-<br>
 
 ## See It in Action
 * Demo: https://foxster-mp4.github.io/css3-uitableview/
-
 * Working project: https://foxster-mp4.github.io/everywhere/
-
-<br>
 
 ## Get Started
 Include **uitableview.css**:
@@ -39,8 +31,6 @@ You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to easily
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <!-- Visit https://icons.getbootstrap.com/#install to grab the latest version -->
 ```
-
-<br>
 
 ## Structure
 ```
