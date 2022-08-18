@@ -1,5 +1,5 @@
 # css3-uitableview
-UITableView but in HTML & CSS
+UITableView but for HTML & CSS
 
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
 
