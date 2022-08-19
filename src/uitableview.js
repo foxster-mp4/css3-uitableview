@@ -8,7 +8,7 @@
 
 // Using this file alongside uitableview.auto-dark.css is not recommended, since the page will default to match the system's appearance and your function calls may not work
 const badCSS = document.querySelector("link[href*='uitableview.auto-dark.css']");
-badCSS.parentNode.removeChild(badCSS);
+if (badCSS) badCSS.parentNode.removeChild(badCSS);
 
 // Call these functions to trigger an appearance change 
 const uiTableViewDark = () => document.getElementById("uitableview").classList.add("dark");
