@@ -7,10 +7,10 @@
  */
 
 // Call these functions to trigger appearance change 
-// Must not use with @media (prefers-color-scheme: dark)
+// Must not use with uitableview.auto-dark.css
 function uiTableViewDark() {
-  document.querySelectorAll("#uitableview, #uitableview .icon, #uitableview .cell, #uitableview .cell-accessory-icon").forEach(e => e.classList.add("dark"));
+  document.getElementById("uitableview").classList.add("dark");
 }
 function uiTableViewLight() {
-  document.querySelectorAll("#uitableview, #uitableview .icon, #uitableview .cell, #uitableview .cell-accessory-icon").forEach(e => e.classList.remove("dark"));
+  document.getElementById("uitableview").classList.remove("dark");
 }

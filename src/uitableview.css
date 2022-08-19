@@ -89,7 +89,8 @@ MIT License
   align-items: center;
 }
 /* Clickable cell */
-#uitableview .clickable.cell:active {
+#uitableview .clickable.cell:active,
+#uitableview .clickable.cell:focus {
   transition: none;
   background-color: var(--cell-highlight);
 }
@@ -153,29 +154,29 @@ MIT License
   opacity: 0.5;
 }
 
-/* Manual dark mode styles (for use with uitable.js; must NOT use with @media (prefers-color-scheme: dark)) */
-.dark#uitableview {
+/* Manual dark mode class (see uitableview.js) */
+#uitableview.dark {
   background: var(--table-background-dark);
   color: white;
 }
-#uitableview .dark.cell {
+#uitableview.dark .cell {
   background: var(--cell-background-dark);
 }
-#uitableview .dark.section .cell .cell-inner {
+#uitableview.dark .section .cell .cell-inner {
   border-top-color: var(--cell-separator-dark);
 }
-#uitableview .dark.clickable.cell:active,
-#uitableview .dark.clickable.cell:focus {
+#uitableview.dark .clickable.cell:active,
+#uitableview.dark .clickable.cell:focus {
   transition: none;
   background-color: var(--cell-highlight-dark) !important;
 }
-#uitableview .dark.icon {
+#uitableview.dark .icon {
   border-color: var(--icon-border-dark);
 }
-#uitableview .dark.cell-accessory-icon i {
+#uitableview.dark .cell-accessory-icon i {
   color: var(--primary-color-dark);
 }
-#uitableview .dark.grey.cell-accessory-icon i {
+#uitableview.dark .grey.cell-accessory-icon i {
   color: var(--grey-accessory-icon-color-dark);
 }
 
