@@ -1,7 +1,7 @@
 # css3-uitableview
 CSS3 framework to achieve UITableView in HTML
 
-<img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
+<img src=".screenshot.png" alt="phone-browser-screenshot"/>
 
 ## Get Started
 Include **uitableview.css**
