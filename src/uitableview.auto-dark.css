@@ -8,7 +8,8 @@ MIT License
 
 /* Auto dark mode styles (no JavaScript) */
 @media (prefers-color-scheme: dark) {
-  #uitableview {
+  #uitableview, 
+  #uitableview.no-cell-background {
     background: var(--table-background-dark);
     color: white;
   }
@@ -16,7 +17,7 @@ MIT License
     background: var(--cell-background-dark);
   }
   #uitableview .section .cell .cell-inner {
-    border-top-color: var(--cell-separator-dark);
+    border-bottom-color: var(--cell-separator-dark);
   }
   #uitableview .clickable.cell:active,
   #uitableview .clickable.cell:focus {

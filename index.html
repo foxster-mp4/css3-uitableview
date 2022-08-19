@@ -16,7 +16,7 @@
     }
   </style>
 </head>
-<body id="uitableview">
+<body id="uitableview" class="">
   <h1 id="title">css3-uitableview</h1>
   <!-- L -->
   <div class="section-container">
@@ -96,21 +96,35 @@
   <div class="section-container">
     <div class="section">
       <p class="section-header">Section header</p>
-      <div class="cell">
+      <a class="cell">
         <div class="cell-inner">
           <div class="cell-labels">
             <p class="cell-text">Cell Text</p>
             <p class="cell-detail-text">Cell detail text</p>
           </div>
         </div>
-      </div>
-      <div class="cell">
+      </a>
+      <a class="cell">
         <div class="cell-inner">
           <div class="cell-labels">
             <p class="cell-text">Cell Text</p>
           </div>
         </div>
-      </div>
+      </a>
+      <a class="clickable cell" onclick="(
+        function() {
+          document.getElementById('uitableview').classList.toggle('no-cell-background');
+        })();">
+        <div class="cell-inner">
+          <div class="cell-labels">
+            <p class="cell-text">Tap/click here</p>
+            <p class="cell-detail-text">to Toggle .no-cell-background</p>
+          </div>
+          <div class="cell-accessory-icon">
+            <i class="bi bi-paint-bucket"></i>
+          </div>
+        </div>
+      </a>
       <p class="section-footer">This is a section footer. The quick brown fox jumps over the lazy dog.</p>
     </div>
   </div>
@@ -149,7 +163,7 @@
         <div class="cell-inner">
           <div class="cell-labels">
             <p class="cell-text">Clickable Cell</p>
-            <p class="cell-detail-text">with icon and accessory Icon</p>
+            <p class="cell-detail-text">with icon and accessory icon</p>
           </div>
           <div class="cell-accessory-icon">
             <i class="bi bi-arrow-up-right-square"></i>

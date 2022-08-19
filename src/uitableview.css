@@ -38,17 +38,32 @@ MIT License
   padding-bottom: 50px;
   background: var(--table-background);
 }
+#uitableview.no-cell-background {
+  background-color: var(--cell-background);
+}
+#uitableview.no-cell-background .cell {
+  background-color: unset;
+}
 
 /* Section */
 #uitableview .section-container {
   margin-top: 30px;
 }
 /* Separator for cells in section */
-#uitableview .section .cell:first-of-type .cell-inner { border-top: none !important; }
 #uitableview .section .cell .cell-inner {
-  border-top: 0.5px solid var(--cell-separator);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--cell-separator);
 }
-
+#uitableview .section .cell:last-of-type .cell-inner { border-bottom-width: 0px; }
+#uitableview.no-cell-background .section .cell:last-of-type .cell-inner { 
+  border-bottom-width: 0.5px !important;
+}
+#uitableview.no-cell-background .section .cell:first-of-type .cell-inner { 
+  border-top-width: 0.5px !important;
+  border-top-style: solid;
+  border-top-color: var(--cell-separator);
+}
 /* Rounded section */
 #uitableview .section.rounded {
   margin-left: 16px;
@@ -56,6 +71,12 @@ MIT License
 }
 #uitableview .section.rounded .cell {
   border-radius: 10px;
+}
+#uitableview .section.rounded .cell:last-of-type .cell-inner { 
+  border-bottom: 0px !important; 
+}
+#uitableview.no-cell-background .section.rounded .cell:first-of-type .cell-inner {
+  border-top-width: 0px !important;
 }
 /* First cell (rounded top corners) */
 #uitableview .section.rounded .cell:first-of-type { 
@@ -154,8 +175,9 @@ MIT License
   opacity: 0.5;
 }
 
-/* Manual dark mode class (see uitableview.js) */
-#uitableview.dark {
+/* .dark (used for uitableview.js) */
+#uitableview.dark, 
+#uitableview.dark.no-cell-background {
   background: var(--table-background-dark);
   color: white;
 }
@@ -163,7 +185,7 @@ MIT License
   background: var(--cell-background-dark);
 }
 #uitableview.dark .section .cell .cell-inner {
-  border-top-color: var(--cell-separator-dark);
+  border-bottom-color: var(--cell-separator-dark);
 }
 #uitableview.dark .clickable.cell:active,
 #uitableview.dark .clickable.cell:focus {

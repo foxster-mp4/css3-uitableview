@@ -29,12 +29,12 @@ You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to add ce
 
 ## Structure
 ```
-body#uitableview | div#uitableview
+body#uitableview | div#uitableview [.dark] [.no-cell-background]
 -- [h1#title]
 -- div.section-container [.rounded]
 ---- div.section
 ------ [p.section-header]
------- a.cell | div.cell [.clickable] [.disabled]
+------ div.cell | a.cell [.transparent] [.clickable] [.disabled]
 -------- [div.cell-icon]
 ---------- [img.icon] | [i.bi]
 -------- div.cell-inner
