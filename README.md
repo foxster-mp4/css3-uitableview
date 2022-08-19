@@ -31,8 +31,8 @@ You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to add ce
 ```
 body#uitableview | div#uitableview [.dark] [.no-cell-background]
 -- [h1#title]
--- div.section-container [.rounded]
----- div.section
+-- div.section-container
+---- div.section [.rounded]
 ------ [p.section-header]
 ------ div.cell | a.cell [.transparent] [.clickable] [.disabled]
 -------- [div.cell-icon]
