@@ -34,7 +34,7 @@ body#uitableview | div#uitableview [.dark] [.no-cell-background]
 -- div.section-container
 ---- div.section [.rounded]
 ------ [p.section-header]
------- div.cell | a.cell [.transparent] [.clickable] [.disabled]
+------ div.cell | a.cell [.clickable] [.disabled]
 -------- [div.cell-icon]
 ---------- [img.icon] | [i.bi]
 -------- div.cell-inner
