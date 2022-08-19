@@ -10,12 +10,12 @@ Include **uitableview.css**
 ```
 
 Include one of the following
-* **uitableview.auto-dark.css** to have the page automatically switch between light/dark appearance according to the system appearance
+* **uitableview.auto-dark.css** to have the page automatically switch between light/dark appearance to match the system appearance
 ```html
 <link rel="stylesheet" href="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.auto-dark.css">
 ```
 
-* **uitableview.js** to set light/dark appearance manually in your code (by default, this will remove **uitableview.auto-dark.css**, effectively disabling automatic appearance switching)
+* **uitableview.js** to set light/dark appearance manually in your code. By default, this will remove **uitableview.auto-dark.css**, effectively disabling automatic appearance switching
 ```html
 <script src="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.js"></script>
 ```
