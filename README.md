@@ -4,23 +4,23 @@ CSS3 framework to achieve UITableView in HTML
 <img src=".screenshot.png" alt="phone-browser-screenshot" width="300"/>
 
 ## Get Started
-Include **uitableview.css**:
+Include **uitableview.css**
 ```html
 <link rel="stylesheet" href="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.css">
 ```
 
-Include one of the following:
-* **uitableview.auto-dark.css** to have the page automatically switch between light/dark appearance to match the system appearance
+Include one of the following
+* **uitableview.auto-dark.css** to have the page automatically switch between light/dark appearance according to the system appearance
 ```html
 <link rel="stylesheet" href="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.auto-dark.css">
 ```
 
-* **uitableview.js** if you plan on toggling light/dark appearance manually in your code. Make sure to NOT include **uitableview.auto-dark.css**, since the table would be matching the system appearance by default and the some functions might not have any visible effect
+* **uitableview.js** to set light/dark appearance manually in your code (by default, this will remove **uitableview.auto-dark.css**, effectively disabling automatic appearance switching)
 ```html
 <script src="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.js"></script>
 ```
 
-You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to add cell icons with ease (using `<i class="bi bi-<icon-name>">`; see [icon font usage](https://icons.getbootstrap.com/#external-image)):
+You may also include [Bootstrap Icons](https://icons.getbootstrap.com) to add cell icons with ease (using `<i class="bi bi-<icon-name>">`; see [icon font usage](https://icons.getbootstrap.com/#external-image))
 ```html
 <!-- Bootstrap Icons v1.9.1 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">

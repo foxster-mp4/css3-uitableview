@@ -6,11 +6,10 @@
  * MIT License
  */
 
-// Call these functions to trigger appearance change 
-// Must not use with uitableview.auto-dark.css
-function uiTableViewDark() {
-  document.getElementById("uitableview").classList.add("dark");
-}
-function uiTableViewLight() {
-  document.getElementById("uitableview").classList.remove("dark");
-}
+// Using this file alongside uitableview.auto-dark.css is not recommended, since the page will default to match the system's appearance and your function calls may not work
+const badCSS = document.querySelector("link[href*='uitableview.auto-dark.css']");
+badCSS.parentNode.removeChild(badCSS);
+
+// Call these functions to trigger an appearance change 
+const uiTableViewDark = () => document.getElementById("uitableview").classList.add("dark");
+const uiTableViewLight = () => document.getElementById("uitableview").classList.remove("dark");
