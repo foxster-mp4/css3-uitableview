@@ -53,7 +53,7 @@ MIT License
 #uitableview .section .cell .cell-inner {
   border-bottom-width: 0.5px;
   border-bottom-style: solid;
-  border-bottom-color: var(--cell-separator);
+  border-color: var(--cell-separator);
 }
 #uitableview .section .cell:last-of-type .cell-inner { border-bottom-width: 0px; }
 #uitableview.no-cell-background .section .cell:last-of-type .cell-inner { 
@@ -62,7 +62,6 @@ MIT License
 #uitableview.no-cell-background .section .cell:first-of-type .cell-inner { 
   border-top-width: 0.5px !important;
   border-top-style: solid;
-  border-top-color: var(--cell-separator);
 }
 /* Rounded section */
 #uitableview .section.rounded {
@@ -176,29 +175,30 @@ MIT License
 }
 
 /* .dark (used for uitableview.js) */
-#uitableview.dark, 
-#uitableview.dark.no-cell-background {
+.dark#uitableview, 
+.dark#uitableview.no-cell-background {
   background: var(--table-background-dark);
   color: white;
 }
-#uitableview.dark .cell {
+.dark#uitableview .cell {
   background: var(--cell-background-dark);
 }
-#uitableview.dark .section .cell .cell-inner {
+.dark#uitableview .section .cell .cell-inner,
+.dark#uitableview.no-cell-background .section .cell:first-of-type .cell-inner {
   border-bottom-color: var(--cell-separator-dark);
 }
-#uitableview.dark .clickable.cell:active,
-#uitableview.dark .clickable.cell:focus {
+.dark#uitableview .clickable.cell:active,
+.dark#uitableview .clickable.cell:focus {
   transition: none;
   background-color: var(--cell-highlight-dark) !important;
 }
-#uitableview.dark .icon {
+.dark#uitableview .icon {
   border-color: var(--icon-border-dark);
 }
-#uitableview.dark .cell-accessory-icon i {
+.dark#uitableview .cell-accessory-icon i {
   color: var(--primary-color-dark);
 }
-#uitableview.dark .grey.cell-accessory-icon i {
+.dark#uitableview .grey.cell-accessory-icon i {
   color: var(--grey-accessory-icon-color-dark);
 }
 

@@ -16,8 +16,9 @@ MIT License
   #uitableview .cell {
     background: var(--cell-background-dark);
   }
-  #uitableview .section .cell .cell-inner {
-    border-bottom-color: var(--cell-separator-dark);
+  #uitableview .section .cell .cell-inner,
+  #uitableview.no-cell-background .section .cell:first-of-type .cell-inner {
+    border-color: var(--cell-separator-dark);
   }
   #uitableview .clickable.cell:active,
   #uitableview .clickable.cell:focus {
