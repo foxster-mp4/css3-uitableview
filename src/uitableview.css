@@ -51,17 +51,21 @@ MIT License
 }
 /* Separator for cells in section */
 #uitableview .section .cell .cell-inner {
-  border-bottom-width: 0.5px;
-  border-bottom-style: solid;
+  border-top-width: 0.5px;
+  border-top-style: solid;
   border-color: var(--cell-separator);
 }
-#uitableview .section .cell:last-of-type .cell-inner { border-bottom-width: 0px; }
-#uitableview.no-cell-background .section .cell:last-of-type .cell-inner { 
-  border-bottom-width: 0.5px !important;
+#uitableview .section .cell:first-of-type .cell-inner { border-top-width: 0px; }
+#uitableview.no-cell-background .section .cell:first-of-type .cell-inner { 
+  border-top-width: 0.5px !important;
 }
 #uitableview.no-cell-background .section .cell:first-of-type .cell-inner { 
   border-top-width: 0.5px !important;
   border-top-style: solid;
+}
+#uitableview.no-cell-background .section .cell:last-of-type .cell-inner { 
+  border-bottom-width: 0.5px !important;
+  border-bottom-style: solid;
 }
 /* Rounded section */
 #uitableview .section.rounded {
@@ -70,9 +74,6 @@ MIT License
 }
 #uitableview .section.rounded .cell {
   border-radius: 10px;
-}
-#uitableview .section.rounded .cell:last-of-type .cell-inner { 
-  border-bottom: 0px !important; 
 }
 #uitableview.no-cell-background .section.rounded .cell:first-of-type .cell-inner {
   border-top-width: 0px !important;
@@ -115,6 +116,12 @@ MIT License
   transition: none;
   background-color: var(--cell-highlight);
 }
+#uitableview .clickable.cell:active .cell-inner,
+#uitableview .clickable.cell:focus .cell-inner,
+#uitableview .clickable.cell:active + .cell .cell-inner,
+#uitableview .clickable.cell:focus + .cell .cell-inner {
+  border-color: transparent !important;
+}
 #uitableview .clickable.cell,
 #uitableview .clickable.cell:visited {
   color: unset;
@@ -124,7 +131,8 @@ MIT License
 #uitableview .disabled.cell {
   pointer-events: none;
 }
-#uitableview .disabled.cell div {
+#uitableview .disabled.cell .cell-icon,
+#uitableview .disabled.cell .cell-inner > div {
   opacity: 60%;
 }
 
