@@ -100,7 +100,6 @@ MIT License
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: none !important;
 }
 #uitableview .cell-inner {
   min-height: 28px;
