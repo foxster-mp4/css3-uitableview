@@ -100,6 +100,7 @@ MIT License
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: none !important;
 }
 #uitableview .cell-inner {
   min-height: 28px;
@@ -194,7 +195,7 @@ MIT License
 }
 .dark#uitableview .section .cell .cell-inner,
 .dark#uitableview.no-cell-background .section .cell:first-of-type .cell-inner {
-  border-bottom-color: var(--cell-separator-dark);
+  border-color: var(--cell-separator-dark);
 }
 .dark#uitableview .clickable.cell:active,
 .dark#uitableview .clickable.cell:focus {
