@@ -72,9 +72,6 @@ MIT License
   margin-left: 16px;
   margin-right: 16px;
 }
-#uitableview .section.rounded .cell {
-  border-radius: 10px;
-}
 #uitableview.no-cell-background .section.rounded .cell:first-of-type .cell-inner {
   border-top-width: 0px !important;
 }
@@ -82,7 +79,6 @@ MIT License
 #uitableview .section.rounded .cell:first-of-type { 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-top: 0.1px solid transparent;
 }
 /* Middle cells (no rounded corners) */
 #uitableview .section.rounded .cell {
