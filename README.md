@@ -8,18 +8,18 @@ To use css3-uitableview in your project, include:
 
 * **uitableview.css**
   ```html
-  <link rel="stylesheet" href="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.css">
+  <link rel="stylesheet" href="https://therealFoxster.github.io/css3-uitableview/src/uitableview.css">
   ```
 
 and one of the following (optional but recommended):
 * **uitableview.auto-dark.css** to have the page automatically switch between light/dark appearance to match the system appearance
   ```html
-  <link rel="stylesheet" href="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.auto-dark.css">
+  <link rel="stylesheet" href="https://therealFoxster.github.io/css3-uitableview/src/uitableview.auto-dark.css">
   ```
 
 * **uitableview.js** to set light/dark appearance manually in your code
   ```html
-  <script src="https://foxster-mp4.github.io/css3-uitableview/src/uitableview.js"></script>
+  <script src="https://therealFoxster.github.io/css3-uitableview/src/uitableview.js"></script>
   ```
   > **Note**: By default, **uitableview.js** will remove **uitableview.auto-dark.css**, effectively disabling automatic appearance switching.
 
@@ -53,8 +53,8 @@ body#uitableview | div#uitableview [.dark] [.no-cell-background]
 > * In a section, all cells should be of the same tag
 
 ## See It in Action
-* Demo: https://foxster-mp4.github.io/css3-uitableview/
-* Working project: https://foxster-mp4.github.io/everywhere/
+* Demo: https://therealFoxster.github.io/css3-uitableview/
+* Working project: https://therealFoxster.github.io/everywhere/
 
 ## License
 [The MIT License](LICENSE.md)
