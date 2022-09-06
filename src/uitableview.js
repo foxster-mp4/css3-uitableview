@@ -1,8 +1,8 @@
 /**
  * uitableview.js
- * css3-uitableview (github.com/foxster-mp4/css3-uitableview)
+ * css3-uitableview (github.com/therealFoxster/css3-uitableview)
  * 
- * Copyright (c) 2022 Foxster (foxster-mp4 on GitHub)
+ * Copyright (c) 2022 Foxster (therealFoxster on GitHub)
  * MIT License
  */
 
