@@ -1,5 +1,5 @@
 # css3-uitableview
-CSS3 framework to create a web version of UITableView
+Simple CSS3 framework to achieve a web version of UITableView
 
 <img src="screenshot.png" alt="phone-browser-screenshot"/>
 
