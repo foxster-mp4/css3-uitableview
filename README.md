@@ -23,12 +23,7 @@ and one of the following (optional but recommended):
   ```
   > **Note**: By default, **uitableview.js** will remove **uitableview.auto-dark.css**, effectively disabling automatic appearance switching.
 
-You may also want to include [Bootstrap Icons](https://icons.getbootstrap.com) to add icons to cells with ease (using `<i class="bi bi-<icon-name>">`; see [icon font usage](https://icons.getbootstrap.com/#external-image)):
-```html
-<!-- Bootstrap Icons v1.9.1 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<!-- Visit https://icons.getbootstrap.com/#install to grab the latest version -->
-```
+css3-uitableview uses [Bootstrap Icons](https://icons.getbootstrap.com) v1.9.1 so you can add icons with ease (see [icon font usage](https://icons.getbootstrap.com/#external-image)). Visit https://icons.getbootstrap.com/#install to grab the latest version.
 
 ## Structure
 ```
@@ -37,7 +32,7 @@ body#uitableview | div#uitableview [.dark] [.no-cell-background]
 -- div.section-container
 ---- div.section [.rounded]
 ------ [p.section-header]
------- div.cell | a.cell [.clickable] [.disabled]
+------ div.cell | a.cell [.clickable] [.disabled] [.right-detail-text]
 -------- [div.cell-icon]
 ---------- [img.icon] | [i.bi]
 -------- div.cell-inner
