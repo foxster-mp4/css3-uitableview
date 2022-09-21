@@ -131,6 +131,16 @@ MIT License
 #uitableview .disabled.cell .cell-inner > div {
   opacity: 60%;
 }
+/* Right detail */
+#uitableview .cell.right-detail-text .cell-inner .cell-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+#uitableview .cell.right-detail-text .cell-inner .cell-labels .cell-detail-text {
+  font-size: 17px;
+}
 
 /* Cell icon */
 #uitableview .cell-icon {
@@ -176,7 +186,7 @@ MIT License
 }
 #uitableview .cell-detail-text {
   font-size: 14px;
-  opacity: 0.5;
+  opacity: 0.35;
 }
 
 /* .dark (used for uitableview.js) */
