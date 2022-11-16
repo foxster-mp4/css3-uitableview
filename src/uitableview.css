@@ -148,6 +148,7 @@ MIT License
 #uitableview .cell-icon {
   margin-left: 14px;
   display: flex;
+  align-items: center;
 }
 #uitableview .cell-icon i.bi {
   font-size: 20pt;
